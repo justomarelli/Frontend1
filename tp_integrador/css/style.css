@@ -1,0 +1,26 @@
+header div {
+    background-color: #222222;
+    color: white;
+}
+
+header nav {
+    background-color: #F0A83E;
+}
+
+header nav {
+    color: white;
+}
+
+header nav p {
+    margin-left: 20px;
+}
+
+main h2 {
+    text-align: center
+}
+
+main section {
+    background-image: url(/img/portada.png);
+    height: 818px;
+    text-align: center;
+}
