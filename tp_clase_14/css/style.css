@@ -1,0 +1,118 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #00669F;
+    width: 100%;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+header p {
+    margin: 0%;
+    padding: 10px;
+    background-color: #D1891C;
+}
+
+header h1 {
+    font-family: ;
+    align-content: center;
+    margin: 0%;
+    padding: 18px;
+    font-weight: 700;
+}
+
+main {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta {
+    position: relative;
+    width: 300px;
+    margin: 20px 50px;
+    display:block;
+    justify-content: space-evenly;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.tarjeta img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+#corazon {
+    position: absolute;
+    width: auto;
+    left: 20px;
+    top: 20px;
+}
+
+#foto_cara {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: 133px;
+}
+
+article #textos_article {
+    flex-grow: 1;
+}
+
+article div h2{
+    padding-top: 45px;
+    text-align: center;
+
+}
+
+article div p {
+    padding: 16px;
+    text-align: justify;
+    flex-grow: 1;
+}
+
+article a {
+    display: flex;
+    justify-content: center;
+}
+
+article button {
+    height: 48px;
+    width: 130px;
+    background-color: #00669F;
+    color: white;
+}
+
+footer {
+    background-color: #00669F;
+    color: white;
+}
+
+footer p {
+    padding: 16px;
+}
+
