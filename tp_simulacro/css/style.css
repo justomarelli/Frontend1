@@ -1,0 +1,105 @@
+body {
+    width: 100vw;
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #222222;
+
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header div p {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;    
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-end;
+    
+}
+
+header nav ul li {
+    margin: 5px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+#carrito {
+    width: 25px;
+    height: 24px;
+    margin: 38px;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+#banner {
+    width: 100%;
+    height: 512px;
+    background-image: url(/img/banner.png);
+    justify-content: center;
+    align-content: center;
+}
+
+#banner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#comprar {
+    width: 220px;
+    height: 61px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: #D01418;
+    color: #F3F3F3;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+
+}
+

@@ -1,0 +1,23 @@
+$color-primario : red;
+
+body{
+    
+    text-align: center;
+    
+    header {
+        font-size: 50px;
+        color: $color-primario;
+    
+        h1 {
+            text-align: center;
+        }
+    }
+    
+    main {
+        font-size: 25px;
+        p{
+            text-align: center;
+        }
+    }
+
+}
